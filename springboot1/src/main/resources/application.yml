@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.99.100:3306/cms
+#    driver-class-name: com.mysql.jdbc.Driver
+#---
+#spring:
+#  profiles: prod
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.99.100:1000/cms
+#    driver-class-name: com.mysql.jdbc.Driver
