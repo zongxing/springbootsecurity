@@ -1,0 +1,12 @@
+sever:
+  port: 8888
+companyname: mashensoft1
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.99.100:3306/cms
+    driver-class-name: com.mysql.jdbc.Driver
+  data:
+    rest:
+      base-path: /

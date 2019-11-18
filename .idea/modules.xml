@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/datarest/datarest.iml" filepath="$PROJECT_DIR$/datarest/datarest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datarest2/datarest2.iml" filepath="$PROJECT_DIR$/datarest2/datarest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa/jpa.iml" filepath="$PROJECT_DIR$/jpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot1/springboot1.iml" filepath="$PROJECT_DIR$/springboot1/springboot1.iml" />
     </modules>
   </component>

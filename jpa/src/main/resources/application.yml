@@ -1,0 +1,19 @@
+sever:
+  port: 8888
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.99.100:3306/cms?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    generate-ddl: false
+logging:
+  level:
+    root: error
+    org.springframework: error
+    com.mashensoft: debug
+  file:
+    name: e:/logs/ms.log
+#    path: e:/logs
+

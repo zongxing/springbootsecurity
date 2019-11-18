@@ -1,0 +1,14 @@
+#spring:
+#  security:
+#    user:
+#      name: mashensoft
+#      password: 123
+logging:
+  level:
+    root: debug
+    org.springframework: debug
+    com:
+      mashensoft: debug
+  file:
+    #    path: d:/logs/log
+    name: d:/logs/log.log
