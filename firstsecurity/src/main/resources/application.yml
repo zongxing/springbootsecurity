@@ -1,0 +1,5 @@
+spring:
+  security:
+    user:
+      name: mashensoft
+      password: 123456

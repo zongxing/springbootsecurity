@@ -6,19 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datarest" />
         <module name="rest" />
-        <module name="springboot1" />
-        <module name="datarest2" />
         <module name="jpa" />
+        <module name="datarest2" />
+        <module name="security" />
+        <module name="firstsecurity" />
+        <module name="springboot1" />
+        <module name="datarest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datarest" target="1.8" />
       <module name="datarest2" target="1.8" />
+      <module name="firstsecurity" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="rest" target="1.8" />
       <module name="sec" target="1.8" />
+      <module name="security" target="1.8" />
       <module name="springboot1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -26,9 +30,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="datarest" options="-parameters" />
       <module name="datarest2" options="-parameters" />
+      <module name="firstsecurity" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="rest" options="-parameters" />
       <module name="sec" options="-parameters" />
+      <module name="security" options="-parameters" />
       <module name="springboot1" options="-parameters" />
     </option>
   </component>
